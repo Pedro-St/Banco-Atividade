@@ -13,6 +13,8 @@ public class Bank {
 		Scanner sc = new Scanner(System.in);
 		Count count;
 
+		System.out.print("Inicio do Programa");
+		System.out.println();
 		System.out.print("Enter account number: ");
 		int number = sc.nextInt();
 		System.out.print("Enter account holder: ");
